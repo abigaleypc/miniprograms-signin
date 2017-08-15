@@ -1,11 +1,8 @@
 var express = require('express');
 var router = express.Router();
 var request = require('request');
-var crypto = require('crypto');
-var cookieParser = require('cookie-parser');
-var session = require('express-session');
 var config = require('../config/config');
-var secret = require('../config/secret')
+var secret = require('../config/secret');
 
 const redis = require('redis');
 redisStore = redis.createClient();
