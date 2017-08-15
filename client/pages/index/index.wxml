@@ -1,12 +1,7 @@
 <!--index.wxml-->
 <view class="container">
-  <!-- <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view> -->
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-    <button class="page-body-button" type="primary" bindtap="login">微信登录</button>
-    <button class="page-body-button" type="primary" bindtap="getEncryptData">获取加密信息</button>
-  </view>
+  <button class="page-body-button" style="margin-bottom:20px" type="primary" bindtap="login">微信登录</button>
+  <button class="page-body-button" style="margin-bottom:20px"  type="primary" bindtap="login">获取加密信息</button>
+  <text style="font-size:16px;margin-bottom:20px">请观察控制台的输出</text>
+  </text>
 </view>

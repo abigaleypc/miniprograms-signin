@@ -52,7 +52,7 @@ Page({
           userCode: res.code
         })
         wx.request({
-          url: 'https://youngdze.co:8444/api/authorization',
+          url: 'https://abigaleyu.co:8444/api/authorization',
           data: {
             code: res.code
           },
@@ -107,12 +107,8 @@ Page({
         wx.getUserInfo({
           withCredentials: true,
           success: function (res) {
-            console.log('------------------------------------');
-            console.log(res);
-            console.log('------------------------------------');
             wx.request({
-              header: { cookie: 'wxtoke:null' },
-              url: 'https://youngdze.co:8444/api/encryptData',
+              url: 'https://abigaleyu.co:8444/api/encryptData',
               data: {
                 token:token.data,
                 encryptedData: res.encryptedData,
