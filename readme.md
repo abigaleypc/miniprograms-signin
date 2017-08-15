@@ -2,7 +2,6 @@
 
 ### client
 
-* 暂时修改hosts文件：127.0.0.1 abigaleyu.co
 * 在使用微信web开发者工具中，在左边菜单选择“项目”--勾选“开发环境不校验域名、TLS版本以及HTTPS证书”
 
 ### server

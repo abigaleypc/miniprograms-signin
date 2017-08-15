@@ -52,7 +52,7 @@ Page({
           userCode: res.code
         })
         wx.request({
-          url: 'https://abigaleyu.co:8444/api/authorization',
+          url: 'https://127.0.0.1:8444/api/authorization',
           data: {
             code: res.code
           },
@@ -108,7 +108,7 @@ Page({
           withCredentials: true,
           success: function (res) {
             wx.request({
-              url: 'https://abigaleyu.co:8444/api/encryptData',
+              url: 'https://127.0.0.1:8444/api/encryptData',
               data: {
                 token:token.data,
                 encryptedData: res.encryptedData,
