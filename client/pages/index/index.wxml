@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
   <button class="page-body-button" style="margin-bottom:20px" type="primary" bindtap="login">微信登录</button>
-  <button class="page-body-button" style="margin-bottom:20px"  type="primary" bindtap="login">获取加密信息</button>
+  <button class="page-body-button" style="margin-bottom:20px"  type="primary" bindtap="getEncryptData">获取加密信息</button>
   <text style="font-size:16px;margin-bottom:20px">请观察控制台的输出</text>
 </view>
