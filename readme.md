@@ -17,7 +17,7 @@
 微信小程序有一套严格且小复杂的登录方案，为了疏通整个登录流程，我花了好几天的时间画图与测试，终于~~
 
 流程如下：
-![微信小程序登录流程](/images/signin.png)
+![微信小程序登录流程](https://raw.githubusercontent.com/abigaleypc/miniprograms-signin/master/signin.png)
 
 ### 登录态的作用
 
